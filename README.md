@@ -16,13 +16,14 @@ This application targets Android (5.0) Lollipop and newer.
 2. Fragment management is simplified by using Fragmentation library.
 3. Application is split into tree layers. All implemented in separate modules described below.
 4. Data layer is split into three another sub-layers:
-    - ***domain*** - only publicly visible by application layer,
+    - ***domain*** - only layer that is publicly visible by application layer,
     - ***network*** - exposes networking to domain sub-layer and effectively hides it from application layer,
     - ***persistence*** - exposes database and settings to domain sub-layer and hides it from application layer.  
 5. Base activity and fragment classes takes care of releasing reactive disposable added to the disposables bag.
 6. Reactive extensions for both Room Persistence and Retrofit allows to easily implement SSOT (Single Source of Truth) pattern.
 7. Packaging by feature is favored over packaging by type.
 8. Development tools are configurable through `gradle.properties` file.
+8. It is expected the dialogs will be created using builder patterns from Material Dialogs library.
 
 ## Hint
 
