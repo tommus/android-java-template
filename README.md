@@ -23,7 +23,8 @@ This application targets Android (5.0) Lollipop and newer.
 6. Reactive extensions for both Room Persistence and Retrofit allows to easily implement SSOT (Single Source of Truth) pattern.
 7. Packaging by feature is favored over packaging by type.
 8. Development tools are configurable through `gradle.properties` file.
-8. It is expected the dialogs will be created using builder patterns from Material Dialogs library.
+9. It is expected the dialogs will be created using builder patterns from Material Dialogs library.
+10. Mapping between layer models should be done using Model Mapper library.
 
 ## Hint
 
