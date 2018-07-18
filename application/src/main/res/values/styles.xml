@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <!-- region Application -->
+
+  <style name="Rename"/>
+
+  <!-- endregion -->
+
+  <!-- region Widget -->
+
+  <style name="Rename.Widget"/>
+
+  <!-- endregion -->
+
+  <!-- region TextView -->
+
+  <style name="Rename.Widget.TextView"/>
+
+  <!-- endregion -->
+
+</resources>
