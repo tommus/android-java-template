@@ -6,26 +6,26 @@ ext.deps = deps
 //region Versions
 
 def versions = [:]
-versions.android_gradle_plugin = "3.1.2"
+versions.android_gradle_plugin = "3.1.4"
 versions.butter_knife = "9.0.0-SNAPSHOT"
-versions.constraint = "1.1.2"
-versions.crashlytics = "2.9.4@aar"
-versions.dagger = "2.16"
-versions.fragmentation = "1.3.5"
+versions.commons_lang3 = "3.7"
+versions.constraint = "1.1.3"
+versions.crashlytics = "2.9.5@aar"
+versions.dagger = "2.17"
 versions.javax = "10.0-b28"
 versions.jraf_prefs = "1.2.2"
+versions.limbo = "0.3.0"
 versions.material_dialogs = "0.9.6.0"
 versions.model_mapper = "2.1.0"
-versions.mosby = "2.0.1"
 versions.multidex = "1.0.3"
-versions.okhttp_logging_interceptor = "3.10.0"
+versions.okhttp_logging_interceptor = "3.11.0"
 versions.retrofit = "2.4.0"
-versions.rx_android = "2.0.2"
-versions.rx_java = "2.1.16"
+versions.rx_android = "2.1.0"
+versions.rx_java = "2.2.2"
 versions.room = "1.1.1"
 versions.stetho = "1.5.0"
-versions.support = "28.0.0-alpha1"
-versions.timber = "4.7.0"
+versions.support = "28.0.0-rc02"
+versions.timber = "4.7.1"
 deps.versions = versions
 
 //endregion
@@ -70,22 +70,6 @@ def fast_adapter = [:]
 fast_adapter.commons = "com.mikepenz:fastadapter-commons:$versions.fast_adapter"
 fast_adapter.core = "com.mikepenz:fastadapter:$versions.fast_adapter"
 deps.fast_adapter = fast_adapter
-
-//endregion
-
-//region Fragmentation
-
-def fragmentation = [:]
-fragmentation.core = "me.yokeyword:fragmentation:$versions.fragmentation"
-deps.fragmentation = fragmentation
-
-//endregion
-
-//region Mosby
-
-def mosby = [:]
-mosby.mvp = "com.hannesdorfmann.mosby:mvp:$versions.mosby"
-deps.mosby = mosby
 
 //endregion
 
@@ -142,10 +126,12 @@ deps.ui = ui
 
 deps.butter_knife = "com.jakewharton:butterknife:$versions.butter_knife"
 deps.butter_knife_compiler = "com.jakewharton:butterknife-compiler:$versions.butter_knife"
+deps.commons_lang = "org.apache.commons:commons-lang3:$versions.commons_lang3"
 deps.crashlytics = "com.crashlytics.sdk.android:crashlytics:$versions.crashlytics"
 deps.javax = "org.glassfish:javax.annotation:$versions.javax"
 deps.jraf_prefs = "org.jraf:prefs:$versions.jraf_prefs"
 deps.jraf_prefs_compiler = "org.jraf:prefs-compiler:$versions.jraf_prefs"
+deps.limbo = "com.github.tommus:limbo:$versions.limbo"
 deps.model_mapper = "org.modelmapper:modelmapper:$versions.model_mapper"
 deps.timber = "com.jakewharton.timber:timber:$versions.timber"
 

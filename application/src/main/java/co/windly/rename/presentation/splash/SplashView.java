@@ -1,8 +1,8 @@
 package co.windly.rename.presentation.splash;
 
-import co.windly.rename.presentation.base.activity.BaseView;
+import co.windly.limbo.activity.base.LimboActivityView;
 
-interface SplashView extends BaseView {
+interface SplashView extends LimboActivityView {
 
   //region Logo
 

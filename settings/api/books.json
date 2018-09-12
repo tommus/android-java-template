@@ -1,0 +1,202 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Game of Thrones"
+    },
+    {
+      "id": 2,
+      "title": "Hunger Games"
+    },
+    {
+      "id": 3,
+      "title": "The Lord of the Rings"
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Snow",
+      "book": 1
+    },
+    {
+      "id": 2,
+      "first_name": "Daenerys",
+      "last_name": "Targaryen",
+      "book": 1
+    },
+    {
+      "id": 3,
+      "first_name": "Tyrion",
+      "last_name": "Lannister",
+      "book": 1
+    },
+    {
+      "id": 4,
+      "first_name": "Arya",
+      "last_name": "Stark",
+      "book": 1
+    },
+    {
+      "id": 5,
+      "first_name": "Sansa",
+      "last_name": "Stark",
+      "book": 1
+    },
+    {
+      "id": 6,
+      "first_name": "Khal",
+      "last_name": "Drogo",
+      "book": 1
+    },
+    {
+      "id": 7,
+      "first_name": "Cersei",
+      "last_name": "Lannister",
+      "book": 1
+    },
+    {
+      "id": 8,
+      "first_name": "Eddard",
+      "last_name": "Stark",
+      "book": 1
+    },
+    {
+      "id": 9,
+      "first_name": "Petyr",
+      "last_name": "Bealish",
+      "book": 1
+    },
+    {
+      "id": 10,
+      "first_name": "Margaery",
+      "last_name": "Tyrell",
+      "book": 1
+    },
+    {
+      "id": 11,
+      "first_name": "Peeta",
+      "last_name": "Mellark",
+      "book": 2
+    },
+    {
+      "id": 12,
+      "first_name": "Katniss",
+      "last_name": "Everdeen",
+      "book": 2
+    },
+    {
+      "id": 13,
+      "first_name": "Primrose",
+      "last_name": "Everdeen",
+      "book": 2
+    },
+    {
+      "id": 14,
+      "first_name": "Finnick",
+      "last_name": "Odair",
+      "book": 2
+    },
+    {
+      "id": 15,
+      "first_name": "Gale",
+      "last_name": "Hawthorne",
+      "book": 2
+    },
+    {
+      "id": 16,
+      "first_name": "President",
+      "last_name": "Snow",
+      "book": 2
+    },
+    {
+      "id": 17,
+      "first_name": "Haymitch",
+      "last_name": "Abernathy",
+      "book": 2
+    },
+    {
+      "id": 18,
+      "first_name": "Frodo",
+      "last_name": "Baggins",
+      "book": 3
+    },
+    {
+      "id": 19,
+      "first_name": "Peregrin",
+      "last_name": "Tuk",
+      "book": 3
+    },
+    {
+      "id": 20,
+      "first_name": "Bilbo",
+      "last_name": "Baggins",
+      "book": 3
+    },
+    {
+      "id": 21,
+      "first_name": "Samwise",
+      "last_name": "Gamgee",
+      "book": 3
+    },
+    {
+      "id": 22,
+      "first_name": "Harry",
+      "last_name": "Potter",
+      "book": 4
+    },
+    {
+      "id": 23,
+      "first_name": "Hermione",
+      "last_name": "Granger",
+      "book": 5
+    },
+    {
+      "id": 24,
+      "first_name": "Ronald",
+      "last_name": "Weasley",
+      "book": 4
+    },
+    {
+      "id": 25,
+      "first_name": "Severus",
+      "last_name": "Snape",
+      "book": 4
+    },
+    {
+      "id": 26,
+      "first_name": "Albus",
+      "last_name": "Dumpledore",
+      "book": 4
+    },
+    {
+      "id": 27,
+      "first_name": "Minerwa",
+      "last_name": "McGonagall",
+      "book": 4
+    },
+    {
+      "id": 28,
+      "first_name": "Rubeus",
+      "last_name": "Hagrid",
+      "book": 4
+    },
+    {
+      "id": 29,
+      "first_name": "Sirus",
+      "last_name": "Black",
+      "book": 4
+    },
+    {
+      "id": 30,
+      "first_name": "Luna",
+      "last_name": "Lovegood",
+      "book": 4
+    }
+  ]
+}

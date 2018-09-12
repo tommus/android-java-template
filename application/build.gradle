@@ -46,11 +46,6 @@ android {
     }
   }
 
-  buildTypes.each {
-    it.buildConfigField "Boolean", "ENABLE_BUG_TRACKER", EnableBugTracker
-    it.buildConfigField "Boolean", "ENABLE_DEBUG_BRIDGE", EnableDebugBridge
-  }
-
   //endregion
 
   //region Compile Options
@@ -77,8 +72,7 @@ dependencies {
 
   //region Architecture
 
-  implementation deps.mosby.mvp
-  implementation deps.fragmentation.core
+  implementation deps.limbo
 
   //endregion
 

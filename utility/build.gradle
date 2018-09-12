@@ -51,6 +51,20 @@ android {
   }
 
   //endregion
+
+  //region Gradle Properties
+
+  buildTypes.each {
+    it.buildConfigField "Boolean", "ENABLE_BUG_TRACKER", EnableBugTracker
+    it.buildConfigField "Boolean", "ENABLE_DEBUG_BRIDGE", EnableDebugBridge
+    it.buildConfigField "Integer", "SERVER_CONNECTION_TIMEOUT", ServerConnectionTimeout
+    it.buildConfigField "String", "SERVER_LOGGING_LEVEL", ServerLoggingLevel
+    it.buildConfigField "Integer", "SERVER_READ_TIMEOUT", ServerReadTimeout
+    it.buildConfigField "String", "SERVER_URL", ServerUrl
+    it.buildConfigField "Integer", "SERVER_WRITE_TIMEOUT", ServerWriteTimeout
+  }
+
+  //endregion
 }
 
 //endregion
@@ -71,6 +85,12 @@ dependencies {
 
   api deps.dagger.runtime
   compileOnly deps.javax
+
+  //endregion
+
+  //region Miscellaneous
+
+  api deps.commons_lang
 
   //endregion
 }

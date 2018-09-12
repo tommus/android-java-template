@@ -2,7 +2,7 @@
 /build
 
 # Gradle properties
-gradle.properties
+../utility/gradle.properties
 
 # Google Services
 google-services.json

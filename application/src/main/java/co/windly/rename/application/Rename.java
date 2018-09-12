@@ -1,7 +1,7 @@
 package co.windly.rename.application;
 
 import android.app.Application;
-import co.windly.rename.BuildConfig;
+import co.windly.rename.utility.BuildConfig;
 import co.windly.rename.utility.debug.Bugtracker;
 import co.windly.rename.utility.debug.DebugBridge;
 import co.windly.rename.utility.log.WiLogger;

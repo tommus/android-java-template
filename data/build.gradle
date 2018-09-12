@@ -76,13 +76,24 @@ dependencies {
 
   //region Dependency Injection
 
+  api deps.dagger.runtime
   annotationProcessor deps.dagger.compiler
+  compileOnly deps.javax
 
   //endregion
 
   //region Mapping
 
   implementation deps.model_mapper
+
+  //endregion
+
+  //region Networking
+
+  implementation deps.retrofit.jackson
+  implementation deps.retrofit.logging
+  implementation deps.retrofit.runtime
+  implementation deps.retrofit.rxjava2
 
   //endregion
 

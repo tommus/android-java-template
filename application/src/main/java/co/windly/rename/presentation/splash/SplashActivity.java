@@ -7,11 +7,11 @@ import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.ImageView;
 import butterknife.BindView;
+import co.windly.limbo.activity.base.LimboActivity;
 import co.windly.rename.R;
-import co.windly.rename.presentation.base.activity.BaseActivity;
 import co.windly.rename.utility.view.ViewUtil;
 
-public class SplashActivity extends BaseActivity<SplashView, SplashPresenter> implements SplashView {
+public class SplashActivity extends LimboActivity<SplashView, SplashPresenter> implements SplashView {
 
   //region Ui
 
@@ -40,6 +40,9 @@ public class SplashActivity extends BaseActivity<SplashView, SplashPresenter> im
 
     // Animate logo.
     animateLogo();
+
+    // Download books and characters.
+    getPresenter().downloadBooksAndCharacters();
   }
 
   //endregion
